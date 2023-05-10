@@ -152,14 +152,14 @@ namespace arCam
             };
         }
 
+        // Debug Only
+        /*
         public void misc()
         {
-             //GetCaptureDeviceProperties();
-
             //CameraControlFlags flag;
             //int min, max, step, def;
 
-            /*foreach(CameraControlProperty p in DeviceCaptureProperties)
+            foreach(CameraControlProperty p in DeviceCaptureProperties)
             {
                 camera.GetCameraPropertyRange(p, out min, out max, out step, out def, out flag);
                 foreach(Control c in this.Controls)
@@ -173,9 +173,8 @@ namespace arCam
                     }
                 }
                 camera.SetCameraProperty(p, def, CameraControlFlags.Auto);
-
-                txbProperties.Text += $"{p}: Min: {min} Max: {max} Step: {step} Def: {def} Flag: {flag}{Environment.NewLine}";
-            */
+                txbProperties.Text += $"{p}: Min: {min} Max: {max} Step: {step} Def: {def} Flag: {flag}{Environment.NewLine}";           
         }
+        */
     }
 }
